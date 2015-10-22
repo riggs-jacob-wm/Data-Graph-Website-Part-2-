@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Picture Page</title>
+
+</head>
+<body background="http://7-themes.com/data_images/out/54/6955893-blue-sunny-sky.jpg" >
+<script src="jquery.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#pic1').click(function() {
+           $('#pic1').attr('src','http://cbsnews1.cbsistatic.com/hub/i/r/2010/11/19/71194450-8ba9-11e2-9400-029118418759/thumbnail/620x350/57db1e930e2c127d3c724b22365f8b84/Most-Polluted.jpg')
+        });
+        $('#pic2').click(function() {
+            $('#pic2').attr('src','http://bp21.org.by/p/2004/f05_ms18.jpg')
+        });
+        $('#pic3').click(function() {
+            $('#pic3').attr('src','http://www.worldhealthsciences.com/media/T6545_ocean_pollution.jpg')
+        });
+        $('#pic4').click(function() {
+            $('#pic4').attr('src','http://viiphoto.com/wp-content/uploads/2013/04/Boulat-Web-Portfolio002-1072x714.jpg')
+        });
+        $('#pic5').click(function() {
+            $('#pic5').attr('src','http://crag.org/wp-content/uploads/2008/11/North-Fork-Road-2b.jpg')
+        });
+        $('#pic6').click(function() {
+            $('#pic6').attr('src','http://oceanservice.noaa.gov/facts/pollution.jpg')
+        });
+
+        $('#pic7').click(function() {
+            $('#pic7').attr('src','http://pennreview.com/wp-content/uploads/2012/12/factory-smoke-polluting-air-in-pictures13-350x300.jpg')
+        });
+        $('#pic8').click(function() {
+            $('#pic8').attr('src','http://www.business-humanrights.org/media/oilpollutionecuador/4858685698_3f70db3e49.jpg')
+        });
+        $('#pic9').click(function() {
+            $('#pic9').attr('src','http://www.no-sea-and-earth-pollution.org/index_files/seal-plastic.jpg')
+        });
+        $('p').click(function() {
+            $(this).html(prompt("What do you think?"))
+        });
+    });
+</script>
+
+
+<table border="1" style="width:100%">
+    <tr>
+        <td> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Clear_sky_%26_Brahmaputra_River,_Mymensingh_02.JPG" style="width:465px;height:275px;" id="pic1"> There is a lot of pollution and unhealthy practices. </td>
+        <td> <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Posts_Brook_from_Norvin_Green_State_Forest_Lower_Trail.jpg" style="width:465px;height:275px;" id="pic2"> Whether it be trash. </td>
+        <td> <img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/9/26/1348685374708/Southern-Ocean-011.jpg" style="width:465px;height:275px;" id="pic3"> Or unwanted waste. </td>
+    </tr>
+    <tr>
+        <td> <img src="http://suscon.org/images/2012/cleanair_overview.jpg" style="width:465px;height:275px;" id="pic4"> Vehicle exhaust. </td>
+        <td> <img src="http://upload.wikimedia.org/wikipedia/commons/f/f6/Swiss_National_Park_131.JPG" style="width:465px;height:275px;" id="pic5"> A fire. </td>
+        <td> <img src="http://img0.mxstatic.com/wallpapers/0f458fce470938f1695a8f9865485f17_large.jpeg" style="width:465px;height:275px;" id="pic6"> Factory sewage or smoke. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://fromthedeskofmardrag.files.wordpress.com/2014/06/cloud-6.jpg" style="width:465px;height:275px;" id="pic7"> It's disgusting and needs to be stopped. </td>
+        <td> <img src="http://7-themes.com/data_images/out/45/6923209-autumn-forest-leaves.jpg" style="width:465px;height:275px;" id="pic8"> It is hurting life that lives in these habitats. </td>
+        <td> <img src="http://i2.cdn.turner.com/cnn/dam/assets/130320181935-oceans-coral-catlin-horizontal-gallery.jpg" style="width:465px;height:275px;" id="pic9"> Stand up for nature.  </td>
+    </tr>
+</table>
+<h1 style="color: red; font-size: 75px; font-style: italic; text-align: center">Make a Difference.</h1>
+<p style="color:red; font-size: 50px; text-align:center" id="original">What do you think about this? (Click Here)</p>
+</body>
+</html>
